@@ -7,7 +7,7 @@ namespace Classtask2.Encapsulation
     {
         static void Main(string[] args)
         {
-            User users = new User();
+            User num1 = new User();
 
             Console.Write("Username daxil edin: ");
             string username = Console.ReadLine();

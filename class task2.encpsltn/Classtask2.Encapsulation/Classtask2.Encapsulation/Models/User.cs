@@ -36,8 +36,19 @@ namespace Classtask2.Encapsulation.Models
                 }
             }
 
+
         }
 
+
+        public User(string username, string password)
+        {
+            this.Username = username;
+            this.Password = password;
+        }
+
+        public User()
+        {
+        }
 
         private bool PasUp(string value)
         {
