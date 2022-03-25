@@ -29,7 +29,7 @@ namespace Classtask2.Encapsulation.Models
 
             set
             {
-                if (string.IsNullOrWhiteSpace(value) && value.Length > 0 && PasUp(value) == true && PasInt(value))
+                if (string.IsNullOrWhiteSpace(value) && value.Length > 0 && PasUp(value) == true && PasInt(value)==true)
 
                 {
                     _Password = value;
